@@ -46,6 +46,13 @@ h6 {
   color: #0e1b4d;
 }
 
+<style>
+  .bottom-three {
+     margin-bottom: 3cm;
+  }
+</style>    
+
+
 .main-page {
   margin-top: 70px;
 }
