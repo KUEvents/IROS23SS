@@ -43,8 +43,9 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
-}
+  color: #f82249;
+}  
+
 
 .main-page {
   margin-top: 70px;
@@ -469,7 +470,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/AvBg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -655,7 +656,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/AltBg.png");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -677,7 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #f82249;
 }
 
 #about h3 {
@@ -685,22 +686,95 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: #f82249;
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
 }
+
+
+
+
+
+/*--------------------------------------------------------------
+# Submission Section
+--------------------------------------------------------------*/
+
+#subsec {
+  background: url("../img/about-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+#subsec:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#subsec h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+
+#subsec h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+
+#subsec p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
 
 #speakers {
-  padding: 60px 0 30px 0;
+  background: url("../img/Org.png");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
 }
+
+#speakers:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 
 #speakers .speaker {
   position: relative;
@@ -795,9 +869,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Schedule Section
 --------------------------------------------------------------*/
 
+
 #schedule {
-  padding: 60px 0 60px 0;
+  background: url("../img/Time.png");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
 }
+
+#schedule:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
 
 #schedule .nav-tabs {
   text-align: center;
@@ -816,7 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #f82249;
   color: #fff;
   padding: 10px 100px;
 }
@@ -845,7 +937,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #fff;
+  background-color: #f82249;
 }
 
 #schedule .schedule-item time {
@@ -874,18 +966,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
+  color: #fff;
+ 
 }
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  color: #f82249;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: #fff;
   margin-bottom: 0;
 }
 
