@@ -692,6 +692,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*--------------------------------------------------------------
