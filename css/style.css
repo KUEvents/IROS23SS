@@ -921,7 +921,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #f82249;
+  background-color: #fff;
 }
 
 #schedule .schedule-item time {
