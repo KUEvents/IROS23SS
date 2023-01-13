@@ -853,9 +853,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Schedule Section
 --------------------------------------------------------------*/
 
+
 #schedule {
-  padding: 60px 0 60px 0;
+  background: url("../img/AltBg.png");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
 }
+
+#schedule:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
 
 #schedule .nav-tabs {
   text-align: center;
@@ -943,7 +961,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: #fff;
   margin-bottom: 0;
 }
 
