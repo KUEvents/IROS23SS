@@ -950,11 +950,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
+  color: #f82249;
+ 
 }
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  color: #f82249;
   font-weight: normal;
   font-size: 16px;
 }
