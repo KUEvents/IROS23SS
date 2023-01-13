@@ -666,7 +666,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: rgba(167, 169, 171, 0.8);
+  background: rgba(13, 20, 41, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -692,7 +692,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #303030;
+  color: #fff;
   text-align: justify;
   text-justify: inter-word;
 }
