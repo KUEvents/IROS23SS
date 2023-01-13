@@ -855,7 +855,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #schedule {
-  background: url("../img/AltBg.png");
+  background: url("../img/Time.png");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -921,7 +921,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #fff;
+  background-color: #f82249;
 }
 
 #schedule .schedule-item time {
