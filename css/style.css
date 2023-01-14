@@ -751,6 +751,57 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+
+#contsec {
+  background: url("");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+#contsec:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#contsec h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+
+#contsec h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+
+#contsec p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Speakers Section
