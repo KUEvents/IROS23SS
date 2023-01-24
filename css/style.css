@@ -748,6 +748,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+#subsec a {
+  color: #f82249;
+  transition: 0.5s;
+  padding-left: 10px;
+}
+
+#subsec a:hover,
+#subsec a:active,
+#subsec a:focus {
+  color: #f8234a;
+  outline: none;
+  text-decoration: none;
+}
 
 
 
