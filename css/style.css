@@ -751,22 +751,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #subsec a {
   color: #f82249;
   font-size: 14px;
-  transition: 0.5s;
 }
-
-#subsec li {
-  padding-left: 30px;
-}
-
-#subsec a:hover,
-#subsec a:active,
-#subsec a:focus {
-  color: #f8234a;
-  outline: none;
-  text-decoration: none;
-}
-
-
 
 /*--------------------------------------------------------------
 # Contact Section
