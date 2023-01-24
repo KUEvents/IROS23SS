@@ -1356,7 +1356,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------------------------------
-# About Section
+# Announcement Section
 --------------------------------------------------------------*/
 
 #announcement {
@@ -1390,6 +1390,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   margin-bottom: 10px;
   color: #f82249;
+  display: inline-block;
 }
 
 #announcement p {
