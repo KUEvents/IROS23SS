@@ -750,8 +750,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subsec a {
   color: #f82249;
+  font-size: 14px;
   transition: 0.5s;
-  padding-left: 10px;
+}
+
+#subsec li {
+  padding-left: 100px;
 }
 
 #subsec a:hover,
